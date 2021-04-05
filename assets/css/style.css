@@ -389,6 +389,9 @@ div {
     width: 333px;
     height: 287px;
   }
+   .main-1-text, .main-2-text, .main-3-text {
+    margin: 0;
+  }
 }
 
 @media (max-width:350px){
