@@ -4,15 +4,19 @@ body {
   font-family: "Kiwi Maru", Arial, serif;
 }
 
-html,
 body {
   height: 100%;
+  width: 100%;
 }
 
-.header {
-  min-width: 100%;
-  background: #000;
+/* .header {
   height: 100vh;
+  min-width: 100vw;
+} */
+
+.wrapper {
+  background: #000;
+  /* min-width: 100vw; */
 }
 
 header li,
@@ -43,6 +47,7 @@ div {
 }
 
 .nav {
+  width: max-content;
   float: right;
 }
 
@@ -77,8 +82,8 @@ div {
   margin-top: 40px;
   font-size: 16px;
   line-height: 25px;
-  min-width: 483px;
-  max-width: 500px;
+  /* min-width: 483px; SUKAAA */
+  /* max-width: 500px; SUKAAA */
 }
 
 .btn {
@@ -273,4 +278,16 @@ div {
   /* .photo {
     align-self: flex-end;
   } */
+}
+
+
+@media (max-width:494px) {
+  .container {
+    width: 300px;
+  }
+  .with-photo {
+    width: 300px;
+    margin-right: 0;
+  }
+  
 }
