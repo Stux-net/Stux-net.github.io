@@ -181,11 +181,49 @@ div {
   margin-right: -50px;
 }
 
+/* HOVER EFFECTS */
+
 .photo-1-img:hover,
 .photo-2-img:hover,
-.photo-3-img:hover {
+.photo-3-img:hover,
+.logo-photo:hover  {
   transform: scale(1.06);
 }
+
+.me-photo:hover {
+  transform: scale(1.06);
+}
+.me-photo {
+  transition: 0.5s;
+}
+
+.nav li:hover {
+  transform: scale(1.2);
+}
+.nav li {
+  transition: 0.4s;
+}
+
+.social_networks img:hover {
+  transform: scale(1.2);
+}
+
+.social_networks img {
+  transition: 0.4s;
+}
+
+.logo-photo {
+  transition: 0.4s;
+}
+
+.copyright:hover {
+  transform: scale(1.2);
+}
+.copyright {
+  transition: 0.5s;
+}
+
+/* HOVER EFFECTS END */
 
 .photo-2 {
   margin-top: 80px;
@@ -355,13 +393,14 @@ div {
   /* section 2 old end */
 
   /* section 2 new start */
-  .photo-1,.photo-3 {
+  .photo-1,
+  .photo-3 {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
   .photo-2 {
-    flex-direction:  column-reverse;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: center;
   }
@@ -371,13 +410,15 @@ div {
   #section-2 {
     margin-top: -32px;
   }
-  .p-1-main, .p-2-main, .p-3-main {
+  .p-1-main,
+  .p-2-main,
+  .p-3-main {
     margin-bottom: 20px;
     margin-top: 10px;
   }
 }
 
-@media(max-width:550px) {
+@media (max-width: 550px) {
   .photo-1-img {
     width: 330px;
   }
@@ -389,12 +430,14 @@ div {
     width: 333px;
     height: 287px;
   }
-   .main-1-text, .main-2-text, .main-3-text {
+  .main-1-text,
+  .main-2-text,
+  .main-3-text {
     margin: 0;
   }
 }
 
-@media (max-width:350px){
+@media (max-width: 350px) {
   .photo-1-img {
     width: 320px;
   }
@@ -407,6 +450,8 @@ div {
     height: 287px;
   }
 }
+
+
 
 @media (max-width: 660px) {
   /* было 494 */
@@ -439,5 +484,58 @@ div {
   .photo {
     margin: 0 auto;
     position: unset;
+  }
+}
+
+#section-2 {
+  padding-bottom: 50px;
+}
+
+.footer_wrapper {
+  padding-top: 50px;
+  background: #000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 300px;
+  overflow: hidden;
+  flex: 0 0 100px;
+  height: 100px;
+}
+.copyright {
+  font-size: 37px;
+  padding-top: 30px;
+}
+
+.social_networks img {
+  width: 60px;
+}
+
+.social_networks a {
+  margin-right: 25px;
+}
+
+.social_networks a:last-child {
+  margin-right: 0;
+}
+
+.social_networks {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+
+@media (max-width:400px) {
+  .logo img {
+    width: 280px;
+    height: 100px;
   }
 }
