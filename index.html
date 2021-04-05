@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -14,39 +19,42 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="heading clearfix">
-          <nav class="nav clearfix">
-            <ol>
-              <li>
-                <a class="works_click" href="#hobby">Hobby</a>
-              </li>
-              <li>
-                <a href="">Works</a>
-              </li>
-              <li>
-                <a href="">Contact</a>
-              </li>
-            </ol>
-          </nav>
-          <div class="with-photo clearfix">
-                <div class="heading-text">
-                  <p class="text-header">
-                    Hi, I am Ílkin, <br />
-                    <span class="rgb">Front-End</span> Developer
-                  </p>
-                  <p class="text-header-not-main">
-                    The design of this site was done by me, the style is minimalism
-                    ... just kidding. I just couldn't think of anything more
-                    beautiful. But let's see what is on this site.
-                  </p>
-                </div>
-                  <div class="photo clearfix">
-                    <img class="me-photo" src="/assets/img/me.jpg" />
-                  </div>
-          </div> <!-- WITH PHOTO END -->
+      <div class="wrapper">
+        <div class="container">
+          <div class="heading clearfix">
+            <nav class="nav clearfix">
+              <ol>
+                <li>
+                  <a class="works_click" href="#hobby">Hobby</a>
+                </li>
+                <li>
+                  <a href="">Works</a>
+                </li>
+                <li>
+                  <a href="">Contact</a>
+                </li>
+              </ol>
+            </nav>
+            <div class="with-photo clearfix">
+              <div class="heading-text">
+                <p class="text-header">
+                  Hi, I am Ílkin, <br />
+                  <span class="rgb">Front-End</span> Developer
+                </p>
+                <p class="text-header-not-main">
+                  The design of this site was done by me, the style is
+                  minimalism ... just kidding. I just couldn't think of anything
+                  more beautiful. But let's see what is on this site.
+                </p>
+              </div>
+              <div class="photo">
+                <img class="me-photo" src="/assets/img/me.jpg" />
+              </div>
+            </div>
+            <!-- WITH PHOTO END -->
+          </div>
+          <button class="btn">Good Job <span class="like">👌</span></button>
         </div>
-        <button class="btn">Good Job <span class="like">👌</span></button>
       </div>
     </header>
     <!-- <section id="section-2" class="section-2">
