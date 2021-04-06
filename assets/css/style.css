@@ -190,13 +190,6 @@ div {
   transform: scale(1.06);
 }
 
-.me-photo:hover {
-  transform: scale(1.06);
-}
-.me-photo {
-  transition: 0.5s;
-}
-
 .nav li:hover {
   transform: scale(1.2);
 }
