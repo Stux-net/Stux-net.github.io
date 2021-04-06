@@ -29,6 +29,6 @@ btn.addEventListener("click", function () {
 
 const btn_twitter = document.getElementById("twitter");
 btn_twitter.addEventListener("click", function () {
-this.preventDefault()
+this.preventDefault();
   alert("I don't use Twitter , but you can follow me on Instagram 🖤");
 });
