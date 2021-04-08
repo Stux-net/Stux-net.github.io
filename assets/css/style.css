@@ -185,8 +185,7 @@ div {
 
 .photo-1-img:hover,
 .photo-2-img:hover,
-.photo-3-img:hover,
-.logo-photo:hover {
+.photo-3-img:hover {
   transform: scale(1.06);
 }
 
@@ -202,10 +201,6 @@ div {
 }
 
 .social_networks img {
-  transition: 0.4s;
-}
-
-.logo-photo {
   transition: 0.4s;
 }
 
