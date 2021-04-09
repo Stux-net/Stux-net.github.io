@@ -581,7 +581,7 @@ div {
 .scroll-up-svg-path {
   box-sizing: border-box;
   fill: none;
-  stroke: black;
+  stroke: red;
   stroke-width: 4px;
   transition: 0.2s;
 }
