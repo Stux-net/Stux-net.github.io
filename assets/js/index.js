@@ -27,10 +27,22 @@ btn.addEventListener("click", function () {
 });
 
 
-const btn_twitter = document.getElementById("twitter");
+const btn_twitter = document.querySelector(".twitter");
 btn_twitter.addEventListener("click", function (e) {
 e.preventDefault();
   alert("I don't use Twitter , but you can follow me on Instagram 🖤");
+});
+
+const whatsapp = document.querySelector(".whatsapp");
+whatsapp.addEventListener("click", function (e) {
+e.preventDefault();
+  alert("Do you really need my number ?");
+});
+
+const facebook = document.querySelector(".facebook");
+facebook.addEventListener("click", function (e) {
+e.preventDefault();
+  alert("Facebook ? No , thanks , it is not for me =D ");
 });
 
 // scroll top /////////////////////////

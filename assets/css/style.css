@@ -196,14 +196,6 @@ div {
   transition: 0.4s;
 }
 
-.social_networks img:hover {
-  transform: scale(1.2);
-}
-
-.social_networks img {
-  transition: 0.4s;
-}
-
 .copyright:hover {
   transform: scale(1.2);
 }
@@ -487,52 +479,127 @@ div {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
 }
 
-.logo img {
-  width: 300px;
-  overflow: hidden;
-  flex: 0 0 100px;
-  height: 100px;
-}
 .copyright {
   font-size: 37px;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
-.social_networks img {
-  width: 60px;
-}
-
-.social_networks a {
-  margin-right: 25px;
-}
-
-.social_networks a:last-child {
-  margin-right: 0;
-}
+/* SOCIAL */
 
 .social_networks {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
-  padding-bottom: 40px;
+  margin-top: 10px;
+}
+.social {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
+.social a {
+  text-decoration: none;
+  color: white;
+}
+
+.social li {
+  color: white;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li:nth-last-child(1) {
+  margin-right: 0 !important;
+}
+
+/* VK */
+
+.vk:hover {
+  border: 3px solid blue;
+  transition: 0.3s;
+  box-shadow: 0 0 25px blue;
+}
+.vk:hover .fa-vk {
+  color: blue;
+  text-shadow: 0 0 3px blue;
+}
+
+/* WHATSAPP */
+
+.whatsapp:hover {
+  border: 3px solid green;
+  transition: 0.3s;
+  box-shadow: 0 0 25px green;
+}
+.whatsapp:hover .fa-whatsapp {
+  color: green;
+  text-shadow: 0 0 3px green;
+}
+
+/* INSTAGRAM */
+
+.instagram:hover {
+  border: 3px solid red;
+  transition: 0.3s;
+  box-shadow: 0 0 25px red;
+}
+.instagram:hover .fa-instagram {
+  color: red;
+  text-shadow: 0 0 3px rgb(247, 52, 52);
+}
+
+/* FACEBOOK */
+
+.facebook:hover {
+  border: 3px solid #3b5998;
+  transition: 0.3s;
+  box-shadow: 0 0 25px #3b5998;
+}
+.facebook:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 3px #3b5998;
+}
+
+/* TWITTER */
+
+.twitter:hover {
+  border: 3px solid #00acee;
+  transition: 0.3s;
+  box-shadow: 0 0 25px #00acee;
+}
+.twitter:hover .fa-twitter {
+  color: #00acee;
+  text-shadow: 0 0 3px #00acee;
+}
+
+/* END */
+
 @media (max-width: 400px) {
+  .social li {
+    width: 44px;
+    height: 44px;
+    font-size: 25px;
+    margin-right: 14px;
+  }
+
   .scroll-up {
     right: 20px !important;
     bottom: 20px !important;
     width: 45px !important;
     height: 45px !important;
     opacity: 0.78 !important;
-  }
-  .logo img {
-    width: 280px;
-    height: 100px;
   }
 }
 
