@@ -553,6 +553,7 @@ div {
   opacity: 0;
   transition: 0.2s;
   transform: translateY(25px);
+  -webkit-overflow-scrolling: touch;
 }
 
 .scroll-up::before {
